@@ -29,12 +29,13 @@
   align-items: center;
 }
 
+
 .dark{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: grey;
   color: white;
-  margin-left: 10px; 
   padding: 8px 16px 8px 16px;
 }
 

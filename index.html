@@ -38,9 +38,20 @@
         </div>
       </div>
     </nav>
+
     <!--/nav bar-->
 
-     <!--jumbotron-->
+  <!-----Dark Mode Toggle----->
+
+        <div class="dark">
+          <span >Dark Mode</span>
+          <input class="toggle" type="checkbox" id="darkMode"> 
+        </div>
+        
+  <!-----/Dark Mode Toggle----->
+     
+
+  <!-----jumbotron------->
 
         <div class="jumbotron jumbotron-fluid bg-info text-white pt-4 pb-4" id="home">
           <div class="container text-sm-center pt-5 pb-5">
@@ -48,28 +59,25 @@
           </div>
         </div> 
      
-    <!--/jumbotron-->
+  <!-----/jumbotron------->
       
     <div id="body">
-     <!--container-->
-      <div class="container pt-2 text-center" id="container">
-              <!--about-->
-              <div class="pt-5 pb-5" id="about">
-                  <h3>About</h3>
-                  <p>Hi! I am Roderick and I am a front end web developer</p>
-                  <p>I am passionante in creating apps that have an impact on world issues, such as</p> 
-                    <p>climate change, racial justice, and human rights.</p>
-              </div>  
-              <!--/about-->
+<!-----container---------->
+        <div class="container pt-2 text-center" id="container">
 
-          <!--Dark Mode Toggle-->
-              <div class="dark bg-primary">
-                <span >Dark Mode</span>
-                <input class="toggle" type="checkbox" id="darkMode"> 
-              </div>
-            <!--/Dark Mode Toggle-->
+      <!------about------->
 
-            <!--work-->
+          <div class="pt-5 pb-5" id="about">
+              <h3>About</h3>
+              <p>Hi! I am Roderick and I am a front end web developer</p>
+              <p>I am passionante in creating apps that have an impact on world issues, such as</p> 
+                <p>climate change, racial justice, and human rights.</p>
+          </div>  
+
+      <!------/about------->
+
+
+      <!--------work--------->
             
             <div class="row pt-5 pb-5 grid" id="work">
               <h3 id="workHeading">Work</h3>
@@ -152,8 +160,10 @@
                   </div>
                 </div>
               </div> 
-          </div><!--/work-->
-              
+          </div>
+      <!-----/work-------->
+           
+      <!-----contact-------->
           <div class="contact-container">
             <form id="form">
               <fieldset>
@@ -163,12 +173,12 @@
                 
                 <div class="row">
                   <div class="mb-3 col-md-6">
-                    <label for="exampleInputName" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" required>
+                    <label for="inputName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="inputName" required>
                   </div>
     
                   <div class="mb-3 col-md-6">
-                    <label for="exampleInputEmail" class="form-label">Email</label>
+                    <label for="inputEmail" class="form-label">Email</label>
                     <input type="text" class="form-control" id="inputEmail" required>
                   </div>
                 </div>
@@ -188,8 +198,9 @@
               </fieldset>
             </form>
           </div>
+        <!-----/contact------------->
 
-              <!--footer-->
+        <!-----footer--------------->
               
                 <div class="row py-3 justify-content-center pb-5" id="contact">
                   <h3 id="contactMeHeading">Contact Me</h3>
@@ -210,9 +221,9 @@
                   </div>
                </div>
               
-              <!--/footer-->
-
-      </div> <!--container-->
+        <!-------/footer-------------->
+      </div> 
+  <!--------container----------------->
     </div>
     <script src="./scripts/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>  
